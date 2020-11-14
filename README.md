@@ -15,3 +15,5 @@ https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf
 
 
 https://youtu.be/i66Zt-WaTnM
+
+[![Video explicativo](http://img.youtube.com/vi/i66Zt-WaTnM/0.jpg)](https://www.youtube.com/watch?v=i66Zt-WaTnM "Video explicativo")
