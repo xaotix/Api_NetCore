@@ -17,7 +17,7 @@ https://youtu.be/i66Zt-WaTnM
 
 [![Video explicativo](http://img.youtube.com/vi/i66Zt-WaTnM/0.jpg)](https://www.youtube.com/watch?v=i66Zt-WaTnM "Video explicativo")
 
-## Tecnologias usadas
+### Tecnologias usadas
 
 Microsoft .Net Core SDK 2.1.1
 
@@ -27,7 +27,7 @@ Banco de dados: MySQL v. 10.2
 
 Certificado SSL: Let’s Encrypt
 
-## Versões das Bibliotecas Usadas
+### Versões das Bibliotecas Usadas
 Json 4.6.0
 
 MySQL Data 6.10.9
@@ -35,7 +35,7 @@ MySQL Data 6.10.9
 Active Directory 4.5.0
 
 
-## Requisitos
+### Requisitos
 
 Instale os seguintes aplicativos:
 
@@ -89,7 +89,7 @@ As chamadas são feitas em POST. É obrigatório o uso dos dados de autenticaç�
 
 Os métodos são:
 
-#https://seu.site.com.br/consultar
+#### https://seu.site.com.br/consultar
 No mínimo 1 coluna da tabela deve ser especificada.
 JSON Exemplo:
 ```json
@@ -104,7 +104,7 @@ JSON Exemplo:
  }
 }
 ```
-# https://seu.site.com.br/cadastrar
+#### https://seu.site.com.br/cadastrar
 JSON Exemplo:
 ```jsson
 {
@@ -120,7 +120,7 @@ JSON Exemplo:
  }
 }
 ```
-# https://seu.site.com.br/apagar
+#### https://seu.site.com.br/apagar
 Por questões de segurança não é possível enviar comandos de apagar vários itens de
 uma vez.
 
@@ -137,7 +137,7 @@ JSON Exemplo:
  }
 }
 ```
-# https://seu.site.com.br/atualizar
+#### https://seu.site.com.br/atualizar
 Chave filtros obrigatória: Determina na busca qual registro será editado.
 ```json
 {
@@ -162,7 +162,7 @@ https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf
 
 ## Montando o Ambiente de Desenvolvimento
 
-## Criando Tabelas
+### Criando Tabelas
 
 SGBD Utilizado: MySQL
 
@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS `api_usuarios_denuncia` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-## Rodando o código no ambiente de desenvolvimento
+### Rodando o código no ambiente de desenvolvimento
 
 Após todos os aplicativos instalados, o servidor MySQL rodando com as tabelas criadas, abra o projeto no Visual Studio Community e coloque rodar.
 Utilize as chamadas post demonstradas na documentação acima.
