@@ -51,6 +51,7 @@ Instale os seguintes aplicativos:
 
 [Mysql v10.2 ou superior](https://www.mysql.com/downloads/)
 
+Clone o projeto: git clone https://github.com/xaotix/Api_NetCore.git
 
 ## Configurando a ferramenta
 
