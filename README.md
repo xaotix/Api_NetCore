@@ -81,6 +81,10 @@ j) LDAP = Servidor LDAP usado pelo Active Directory
 
 As chamadas são feitas em POST. É obrigatório o uso dos dados de autenticação para poder rodar.
 
+
+Para fazer a denúncia, consulte:
+[Documentação em PDF](https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf)
+
 Os métodos são:
 
 #### https://seu.site.com.br/consultar
@@ -150,7 +154,7 @@ Chave filtros obrigatória: Determina na busca qual registro será editado.
 }
 ```
 
-[Documentação em PDF](https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf)
+
 
 
 ## Montando o Ambiente de Desenvolvimento
