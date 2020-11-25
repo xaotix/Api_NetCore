@@ -54,7 +54,8 @@ https://www.postman.com/downloads/
 Heidi SQL (para consultar no banco de dados): 
 https://www.heidisql.com/download.php
 
-
+Mysql v10.2 ou superior:
+https://www.mysql.com/downloads/
 
 
 ## Configurando a ferramenta
@@ -161,11 +162,18 @@ https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf
 
 ## Montando o Ambiente de Desenvolvimento
 
-#Criando Tabelas
+##Criando Tabelas
+
 SGBD Utilizado: MySQL
+
 api_usuarios = tabela onde são gravados os registros de usuários
+
 api_usuarios_denunciar = tabela onde são gravados os registros de denúncia
+
 Scripts para criação das tabelas:
+
+Tabela api_usuarios
+```mysql
 CREATE TABLE IF NOT EXISTS `api_usuarios` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
  `nome` varchar(150) DEFAULT NULL,
@@ -179,6 +187,11 @@ current_timestamp(),
  KEY `nome` (`nome`),
  KEY `ma` (`user`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+```
+
+Tabela api_usuarios_denunciar
+
+```mysql
 CREATE TABLE IF NOT EXISTS `api_usuarios_denuncia` (
  `nome` varchar(150) DEFAULT NULL,
  `email` varchar(150) DEFAULT NULL,
@@ -187,8 +200,9 @@ CREATE TABLE IF NOT EXISTS `api_usuarios_denuncia` (
  `denunciado_nome` varchar(150) DEFAULT NULL,
  `denunciado_descricao` varchar(5000) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
-#Rodando o código
+##Rodando o código no ambiente de desenvolvimento
 
 Após todos os aplicativos instalados, o servidor MySQL rodando com as tabelas criadas, abra o projeto no Visual Studio Community e coloque rodar.
 Utilize as chamadas post demonstradas na documentação acima.
