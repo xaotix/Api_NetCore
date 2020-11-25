@@ -1,7 +1,5 @@
 # WEBAPI_MySQL
 
-[![Última Versão](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/xaotix/Api_NetCore/releases)
-
 API .Net Core para consultas em banco de dados MYSQL com retorno de Json
 
 
