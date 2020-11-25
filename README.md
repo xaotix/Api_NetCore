@@ -150,7 +150,7 @@ Chave filtros obrigatória: Determina na busca qual registro será editado.
 }
 ```
 
-## [Documentação em PDF] (https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf)
+[Documentação em PDF] (https://github.com/xaotix/Api_NetCore/blob/main/Documenta%C3%A7%C3%A3o.pdf)
 
 
 ## Montando o Ambiente de Desenvolvimento
